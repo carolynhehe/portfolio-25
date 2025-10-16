@@ -64,7 +64,7 @@ Many brokers lack experience in website design, set up domain, and server manage
                   <div className="col-md-6">
                     <div className="image-item">
                       <img
-                        src="assets/img/projects/project-details-2.png"
+                        src="/assets/img/projects/project-details-2.png"
                         alt="project-details-2"
                         className="img-fluid w-100"
                       />
@@ -73,7 +73,7 @@ Many brokers lack experience in website design, set up domain, and server manage
                   <div className="col-md-6">
                     <div className="image-item">
                       <img
-                        src="assets/img/projects/project-details-3.png"
+                        src="/assets/img/projects/project-details-3.png"
                         alt="project-details-3"
                         className="img-fluid w-100"
                       />
@@ -100,7 +100,7 @@ Through effective communication and collaboration, I worked closely with brokers
                 </ul>
                                     <div className="image-item">
                       <img
-                        src="assets/img/projects/project-details-3.png"
+                        src="/assets/img/projects/project-details-3.png"
                         alt="project-details-3"
                         className="img-fluid w-100"
                       />
