@@ -28,7 +28,7 @@ const ProfileCard = () => {
     <div className="card profile-card">
       <div className="card-body">
         <div className="image text-center">
-          <img src="/assets/img/images/hhprofile.jpg" alt="profile" width="190"/>
+          <img src="/assets/img/images/hhprofile.jpg" alt="profile" width="422"/>
         </div>
         <div className="text">
           <h3 className="card-title">Carolyn Ho 👋</h3>

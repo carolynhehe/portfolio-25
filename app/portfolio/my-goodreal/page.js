@@ -64,8 +64,8 @@ Many brokers lack experience in website design, set up domain, and server manage
                   <div className="col-md-6">
                     <div className="image-item">
                       <img
-                        src="/assets/img/projects/project-details-2.png"
-                        alt="project-details-2"
+                        src="/assets/img/projects/project-details-1.png"
+                        alt="project-details-1"
                         className="img-fluid w-100"
                       />
                     </div>
@@ -73,8 +73,8 @@ Many brokers lack experience in website design, set up domain, and server manage
                   <div className="col-md-6">
                     <div className="image-item">
                       <img
-                        src="/assets/img/projects/project-details-3.png"
-                        alt="project-details-3"
+                        src="/assets/img/projects/project-details-2.png"
+                        alt="project-details-2"
                         className="img-fluid w-100"
                       />
                     </div>
@@ -89,7 +89,7 @@ Many brokers lack experience in website design, set up domain, and server manage
 Through effective communication and collaboration, I worked closely with brokers to ensure that they can quickly onboard the product, and ensure the design aligns with their vision. Ultimately, my goal is to enable brokers to leverage technology to drive their business forward.
                     </p>
                 <h3 className="more-info-title">Challenges</h3>
-                <h5 className="more-info-subtitle">a Quick Start Tour section</h5>
+                <h5 className="more-info-subtitle">1. Create a Quick Start Tour section</h5>
                 <ul className="list-unstyled">
                   <li>
                     <b>Challenge:</b> In preparation for the design iteration, we integrated My GoodReal with Zendesk, a leading help desk management solution. Through user feedback, we gained valuable insights into the challenges that many realtors were experiencing, particularly when it came to purchasing or setting up their domain.
@@ -100,38 +100,85 @@ Through effective communication and collaboration, I worked closely with brokers
                 </ul>
                                     <div className="image-item">
                       <img
-                        src="/assets/img/projects/project-details-3.png"
+                        src="/assets/img/projects/project-details-3.gif"
                         alt="project-details-3"
                         className="img-fluid w-100"
                       />
                     </div>
+                <br></br>
+                <br></br>
+                <h5 className="more-info-subtitle">2. Redesign the Dashboard</h5>
+                <ul className="list-unstyled">
+                  <li>
+                    <b>Challenge:</b> I was tasked with redesigning the Dashboard for My GoodReal, with the goals of increasing efficiency for both new and returning users. The existing Dashboard was outdated, with a cluttered and overwhelming page layout and unintuitive user flow, which was affecting both user efficiency and the business’s scalability.
+                  </li>
+                  <li>
+                    <b>Solution:</b> We identified the need for a more concise and well-organized page layout, with clear and intuitive navigation, to help users quickly find the features they need and complete tasks efficiently.
 
-                <h5 className="more-info-subtitle">Browser Compatibility:</h5>
-                <ul className="list-unstyled">
-                  <li>
-                    <b>Challenge:</b> Different browsers may interpret code
-                    differently, leading to inconsistencies in the website's
-                    appearance.
-                  </li>
-                  <li>
-                    <b>Solution:</b> Test the website on multiple browsers and
-                    use compatibility libraries or polyfills when necessary.
+Overall, our redesign of the My GoodReal Dashboard was driven by a user-centered approach, with a focus on improving usability and efficiency for both new and returning users. The result is a more modern, intuitive, and efficient Dashboard that is better equipped to meet the needs of our target audience. 
                   </li>
                 </ul>
-                <h5 className="more-info-subtitle">User Experience (UX):</h5>
-                <ul className="list-unstyled">
+                                                    <div className="image-item">
+                      <img
+                        src="/assets/img/projects/project-details-4.png"
+                        alt="project-details-4"
+                        className="img-fluid w-100"
+                      />
+                                            <img
+                        src="/assets/img/projects/project-details-5.png"
+                        alt="project-details-5"
+                        className="img-fluid w-100"
+                      />
+                    </div>
+                <br></br>
+                <br></br>
+                                <ul className="list-unstyled">
                   <li>
-                    <b>Challenge:</b> Creating a seamless and intuitive user
-                    experience that keeps visitors engaged.
-                  </li>
-                  <li>
-                    <b> Solution:</b>
-                    Conduct user testing, design user-friendly interfaces, and
-                    prioritize accessibility to ensure a positive user
-                    experience
+                    Our redesigned Dashboard features a clean and modern UI, with a simplified page layout and clear visual hierarchy. Key features and functions are prominently displayed, with easy-to-navigate menus and clear calls to action. We also introduced easy shortcuts, new visualized data and the flexible components.reasing efficiency for both new and returning users. The existing Dashboard was outdated, with a cluttered and overwhelming page layout and unintuitive user flow, which was affecting both user efficiency and the business’s scalability.
                   </li>
                 </ul>
-                <h5 className="more-info-subtitle">
+                <h5 className="more-info-subtitle"> 3. Make the UI more intuitive</h5>
+                <ul className="list-unstyled">
+                  <li>
+                    <b>Challenge:</b> To have more intuitive UI, we identified pages in the product that required improvement by focusing on the following aspects:
+                  </li>
+                  <div className="image-item">
+                      <img
+                        src="/assets/img/projects/project-details-6.png"
+                        alt="project-details-3"
+                        className="img-fluid w-100"
+                      />
+                    </div>
+                    <br></br>
+                    <br></br>
+                  <li>
+                    <b> Paying Page</b>
+                  </li>
+                                    <div className="image-item">
+                      <img
+                        src="/assets/img/projects/project-details-7.png"
+                        alt="project-details-7"
+                        className="img-fluid w-100"
+                      />
+                                        <li>
+                    <b> Profile Page</b>
+                  </li>
+                                            <img
+                        src="/assets/img/projects/project-details-8.png"
+                        alt="project-details-8"
+                        className="img-fluid w-100"
+                      />
+                                    <br></br>
+                                    <li>
+                    I highlighted the info groups in the “BEFORE"s, and the improvements of the UI can be seen through the comparison images. My approach involved reducing the number of information groups and optimizing the screen area layout to achieve an ideal content density. We also aimed to reduce mouse movement distance by increasing the number of no-scrolling pages.
+                  </li>
+                  <br></br>
+                                               <li>
+                 Through my redesign efforts, we were able to create a more streamlined and intuitive user interface, with key features and functions more easily accessible to users. Our improvements to the paying page and profile page not only enhanced the overall user experience, but also contributed to increased efficiency and productivity for real estate broker users.
+                  </li>
+                    </div>
+                </ul>
+                {/* <h5 className="more-info-subtitle">
                   Compliance and Accessibility:
                 </h5>
                 <ul className="list-unstyled">
@@ -155,7 +202,7 @@ Through effective communication and collaboration, I worked closely with brokers
                   a more competitive and appealing online presence for the
                   company. Ongoing monitoring and potential iterative
                   improvements will be crucial to maintaining and enhancing.
-                </p>
+                </p> */}
               </div>
               <div className="prev-and-next-btn">
                 <button className="btn btn-prev">Previous</button>
