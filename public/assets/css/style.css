@@ -612,7 +612,7 @@ p {
 }
 
 .work-experiance-card .work-experiance-slider {
-  animation: scrollY 10s linear infinite;
+  animation: scrollY 40s linear infinite;
 }
 
 @keyframes scrollY {

@@ -20,15 +20,15 @@ const page = () => {
   {
     id: 3,
     slug: "dptile",
-    title: "dptile - Tile Store Website",
-    subtitle: "Website Design and Development",
+    title: "DP Tile and Stone",
+    subtitle: "Tile Store Website Design and Development",
     img: "/assets/img/projects/project-3.png",
   },
   {
     id: 4,
     slug: "lcbo",
-    title: "LCBO@home - Liquor Store Online App",
-    subtitle: "App Design | Game Design",
+    title: "LCBO@home",
+    subtitle: "Liquor Store Online App Design | Game Design",
     img: "/assets/img/projects/project-4.png",
   },
 ];

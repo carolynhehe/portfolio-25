@@ -28,12 +28,12 @@ const ProfileCard = () => {
     <div className="card profile-card">
       <div className="card-body">
         <div className="image text-center">
-          <img src="/assets/img/images/hhprofile.jpg" alt="profile" width="422"/>
+          <img src="/assets/img/images/hhprofile.jpg" alt="profile" width="366"/>
         </div>
         <div className="text">
           <h3 className="card-title">Carolyn Ho 👋</h3>
           <p>
-            A <span>SaaS Web Designer</span> 🖥️ {" "} having <span>4 years</span> of
+            A <span> Web Designer</span> 🖥️ {" "} having <span>4 years</span> of
             Experiences. Focused on executing intuitive designs with precision to detail.
           </p>
           <div className="common-button-groups">
