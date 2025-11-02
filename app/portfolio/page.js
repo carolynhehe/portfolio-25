@@ -1,37 +1,47 @@
 import WorkTogether from "@/components/WorkTogether";
 import BentoFolioLayout from "@/layout/BentoFolioLayout";
 import Link from "next/link";
+
 const page = () => {
- const projectItems = [
-  {
-    id: 1,
-    slug: "my-goodreal",
-    title: "My GoodReal",
-    subtitle: "SaaS App | Website Builder Tool",
-    img: "/assets/img/projects/project-1.png",
-  },
-  {
-    id: 2,
-    slug: "hackhub",
-    title: "HackHub",
-    subtitle: "Hackathon Landing Pages | Hackathon Management App",
-    img: "/assets/img/projects/project-2.png",
-  },
-  {
-    id: 3,
-    slug: "dptile",
-    title: "DP Tile and Stone",
-    subtitle: "Tile Store Website Design and Development",
-    img: "/assets/img/projects/project-3.png",
-  },
-  {
-    id: 4,
-    slug: "lcbo",
-    title: "LCBO@home",
-    subtitle: "Liquor Store Online App Design | Game Design",
-    img: "/assets/img/projects/project-4.png",
-  },
-];
+  const projectItems = [
+    {
+      id: 1,
+      slug: "gecrown",
+      title: "gecrown.net",
+      subtitle: "Build the WordPress Websites for Door Hardware Store",
+      img: "/assets/img/projects/gecrown-project-cover.png",
+      externalUrl: "https://gecrown.net",
+    },
+    {
+      id: 2,
+      slug: "dptile",
+      title: "DP Tile and Stone",
+      subtitle: "Tile Store Website Design and Development",
+      img: "/assets/img/projects/project-3.png",
+    },
+    {
+      id: 3,
+      slug: "my-goodreal",
+      title: "My GoodReal",
+      subtitle: "SaaS App | Website Builder Tool",
+      img: "/assets/img/projects/project-1.png",
+    },
+    {
+      id: 4,
+      slug: "lcbo",
+      title: "LCBO@home",
+      subtitle: "Liquor Store Online App Design | Game Design",
+      img: "/assets/img/projects/project-4.png",
+    },
+    {
+      id: 5,
+      slug: "hackhub",
+      title: "hackhub.com",
+      subtitle: "Hackathon Landing Pages | Hackathon Management App",
+      img: "/assets/img/projects/project-2.png",
+      externalUrl: "https://hackhub.com",
+    },
+  ];
 
   return (
     <BentoFolioLayout>
@@ -44,10 +54,11 @@ const page = () => {
                   My Latest <span>Projects</span>
                 </h1>
                 <p>
-                Check Out my recent projects and see how I create designs that solve real-world problems.
+                  Check out my recent projects and see how I create designs that solve real-world problems.
                 </p>
               </div>
             </div>
+
             <div className="portfolio-area">
               <div className="row g-4 parent-container">
                 {projectItems.map((item) => (
@@ -77,42 +88,86 @@ const page = () => {
                           </svg>
                         </a>
                       </div>
+
                       <div className="text">
                         <div className="info">
-                      <Link href={`/portfolio/${item.slug}`} className="title">
-                        {item.title}
-                      </Link>
+                          {item.externalUrl ? (
+                            <a
+                              href={item.externalUrl}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="title"
+                            >
+                              {item.title}
+                            </a>
+                          ) : (
+                            <Link href={`/portfolio/${item.slug}`} className="title">
+                              {item.title}
+                            </Link>
+                          )}
                           <p className="subtitle">{item.subtitle}</p>
                         </div>
+
                         <div className="visite-btn">
-                      <Link href={`/portfolio/${item.slug}`} className="title">
-                            Visit Site
-                            <svg
-                              className="arrow-up"
-                              width={14}
-                              height={15}
-                              viewBox="0 0 14 15"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
+                          {item.externalUrl ? (
+                            <a
+                              href={item.externalUrl}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="title"
                             >
-                              <path
-                                d="M9.91634 4.5835L4.08301 10.4168"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                              />
-                              <path
-                                d="M4.66699 4.5835H9.91699V9.8335"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                              />
-                            </svg>
-                          </Link>
+                              Visit Site
+                              <svg
+                                className="arrow-up"
+                                width={14}
+                                height={15}
+                                viewBox="0 0 14 15"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M9.91634 4.5835L4.08301 10.4168"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                />
+                                <path
+                                  d="M4.66699 4.5835H9.91699V9.8335"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                />
+                              </svg>
+                            </a>
+                          ) : (
+                            <Link href={`/portfolio/${item.slug}`} className="title">
+                              View Detail
+                              <svg
+                                className="arrow-up"
+                                width={14}
+                                height={15}
+                                viewBox="0 0 14 15"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M9.91634 4.5835L4.08301 10.4168"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                />
+                                <path
+                                  d="M4.66699 4.5835H9.91699V9.8335"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                />
+                              </svg>
+                            </Link>
+                          )}
                         </div>
                       </div>
                     </div>
                   </div>
                 ))}
               </div>
+
               <div className="pagination">
                 <ul className="list-unstyled">
                   <li className="prev">
@@ -136,40 +191,6 @@ const page = () => {
                   <li>
                     <button>1</button>
                   </li>
-                  { /*<li>
-                    <button>2</button>
-                  </li>
-                  <li>
-                    <button>3</button>
-                  </li>
-                  <li>
-                    <button className="next-page-btn">
-                      <span className="dots">
-                        <i className="fas fa-ellipsis-h" />
-                      </span>
-                      <span className="next-page">
-                        <svg
-                          className="icon icon-arrow-right"
-                          xmlns="http://www.w3.org/2000/svg"
-                          width={24}
-                          height={24}
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth={2}
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        >
-                          <path d="m6 17 5-5-5-5" />
-                          <path d="m13 17 5-5-5-5" />
-                        </svg>
-                      </span>
-                      <span className="next-page-number">Next 4 pages</span>
-                    </button>
-                  </li>
-                  <li>
-                    <button>100</button>
-                  </li> */}
                   <li className="next">
                     <button>
                       <svg
@@ -191,6 +212,7 @@ const page = () => {
                 </ul>
               </div>
             </div>
+
             <WorkTogether />
           </div>
         </div>
@@ -198,4 +220,5 @@ const page = () => {
     </BentoFolioLayout>
   );
 };
+
 export default page;
