@@ -10,23 +10,23 @@ const page = () => {
             <div className="portfolio-details-area">
               <div className="main-image">
                 <img
-                  src="assets/img/projects/project-details-1.png"
-                  alt="project-details-1"
+                  src="/assets/img/projects/dptile-project-cover.png"
+                  alt="project-dptile-cover"
                 />
               </div>
               <div className="portfolio-details-text">
                 <div className="short-info">
                   <div className="info-item">
                     <p className="subtitle">Client For:</p>
-                    <h4 className="card-title">FlexiFlow</h4>
+                    <h4 className="card-title">DP Tile & Stone</h4>
                   </div>
                   <div className="info-item">
                     <p className="subtitle">Services:</p>
                     <h4 className="card-title">
-                      Product Design, and Development
+                      Web Design and Development
                     </h4>
-                    <a href="#" className="website">
-                      flexiflow.com
+                    <a href="https://dptile.ca/" className="website">
+                      dptile.ca
                       <svg
                         className="arrow-up"
                         width={14}
@@ -52,13 +52,11 @@ const page = () => {
                 <div className="overview">
                   <h4 className="card-title">Overview</h4>
                   <p>
-                    Web design encompasses the process of creating and designing
-                    websites It involves a combination of different skills and
-                    disciplines to produce a visually appealing and
-                    user-friendly website. Here's an overview of key aspects of
-                    web design.
+                    DP Tile is a local tile company based in Vancouver, specializing in high-quality tiles for residential and commercial projects. The company required a modern, visually appealing website that could showcase their tile collections and recent projects while allowing easy content management by their internal team.
+
+The website was designed and developed using Gatsby and Contentful. Gatsby provided a fast and SEO-friendly static site framework, while Contentful served as a flexible headless CMS, enabling the client to easily update new products, tile collections, and featured projects without developer involvement.
                   </p>
-                  <p>
+                  {/* <p>
                     <b>Research:</b> Before starting the design, it's essential
                     to understand the target audience, their needs, and the
                     goals of the website.
@@ -72,10 +70,10 @@ const page = () => {
                     <b>Wireframing and Prototyping:</b> Create skeletal outlines
                     and interactive prototypes to visualize the layout and
                     functionality.
-                  </p>
+                  </p> */}
                 </div>
               </div>
-              <div className="inner-images">
+              {/* <div className="inner-images">
                 <div className="row g-3">
                   <div className="col-md-6">
                     <div className="image-item">
@@ -96,42 +94,28 @@ const page = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div className="more-info-block">
                 <h3 className="more-info-title">Challenges</h3>
-                <p>
-                  Web design comes with its own set of challenges, ranging from
-                  technical issues to user experience considerations. Here are
-                  some common challenges faced by web designers. Web design
-                  encompasses the process of creating and designing websites It
-                  involves a combination of different skills and disciplines to
-                  produce a visually appealing and user-friendly website. Here's
-                  an overview of key aspects of web design.
-                </p>
-                <h5 className="more-info-subtitle">Responsive Design:</h5>
+                <h5 className="more-info-subtitle">1. Product Hierarchy and User Navigation</h5>
                 <ul className="list-unstyled">
                   <li>
-                    <b>Challenge:</b> Ensuring that a website looks and
-                    functions well on various devices and screen sizes.
+                    <b>Challenge:</b> DP Tile offers a wide range of tile series, each containing multiple sizes, finishes, and color variations. The initial design made it difficult for users—especially interior designers—to quickly understand the structure and locate the exact product they needed.
                   </li>
                   <li>
-                    <b>Solution:</b> Use responsive design techniques, such as
-                    flexible grids and media queries.
+                    <b>Solution:</b> Through two iterations of discussion and prototyping with the project manager, I refined the product hierarchy and navigation structure. The final layout emphasized a clear multi-level categorization, enabling users to filter and browse by collection, material, size, and color. This improved both usability and discoverability of products.
                   </li>
                 </ul>
-                <h5 className="more-info-subtitle">Browser Compatibility:</h5>
+                <h5 className="more-info-subtitle">Instagram Feed API Maintenance</h5>
                 <ul className="list-unstyled">
                   <li>
-                    <b>Challenge:</b> Different browsers may interpret code
-                    differently, leading to inconsistencies in the website's
-                    appearance.
+                    <b>Challenge:</b> During development, the homepage’s Instagram feed component encountered issues due to an expired access token. The original short-term API required manual refresh every two months, leading to inconsistent content display.
                   </li>
                   <li>
-                    <b>Solution:</b> Test the website on multiple browsers and
-                    use compatibility libraries or polyfills when necessary.
+                    <b>Solution:</b> I researched and implemented a long-term Instagram API token solution, securely stored on the backend to prevent exposure on the client side. This eliminated downtime and ensured continuous synchronization between the website and DP Tile’s social media updates.
                   </li>
                 </ul>
-                <h5 className="more-info-subtitle">User Experience (UX):</h5>
+                {/* <h5 className="more-info-subtitle">User Experience (UX):</h5>
                 <ul className="list-unstyled">
                   <li>
                     <b>Challenge:</b> Creating a seamless and intuitive user
@@ -157,17 +141,10 @@ const page = () => {
                     interfaces, and prioritize accessibility to ensure a
                     positive user experience
                   </li>
-                </ul>
-                <h3 className="more-info-title">Results/Conclusion:</h3>
+                </ul> */}
+                <h3 className="more-info-title">Conclusion:</h3>
                 <p>
-                  The website design and development for FlexiFlow successfully
-                  achieved its objectives, leading to increased user engagement,
-                  improved conversion rates, and positive feedback from the
-                  target audience. The combination of user-centric design,
-                  modern visuals, and a seamless shopping experience resulted in
-                  a more competitive and appealing online presence for the
-                  company. Ongoing monitoring and potential iterative
-                  improvements will be crucial to maintaining and enhancing.
+              The new DP Tile website successfully delivered a fast, elegant, and scalable digital platform for the client. With a clean design, organized product hierarchy, and seamless integration with Contentful, the internal team can now manage updates independently. The combination of optimized performance, consistent Instagram integration, and user-focused design greatly enhanced the brand’s online presence and usability for design professionals.
                 </p>
               </div>
               <div className="prev-and-next-btn">

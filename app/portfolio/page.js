@@ -17,7 +17,7 @@ const page = () => {
       slug: "dptile",
       title: "DP Tile and Stone",
       subtitle: "Tile Store Website Design and Development",
-      img: "/assets/img/projects/project-3.png",
+      img: "/assets/img/projects/dptile-project-cover.png",
     },
     {
       id: 3,
