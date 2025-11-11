@@ -3,7 +3,7 @@ const Awards = () => {
     {
       id: 1,
       icon: "/assets/img/icons/gecrown.svg",
-      title: "Gecrown Door Hardware",
+      title: "gecrown door hardware",
       date: "2025",
       award: "WordPress",
       url: "https://gecrown.net", // Add the specific URL

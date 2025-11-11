@@ -4,14 +4,19 @@ const Projects = () => {
   const projectItems = [
     {
       id: 1,
-      category: "Product Design",
-      img: "/assets/img/projects/project-1.png",
+      category: "Web Design",
+      img: "/assets/img/projects/dptile-project-cover.png",
     },
     {
       id: 2,
+      category: "Product Design",
+      img: "/assets/img/projects/lcbo-1.jpg",
+    },
+        {
+      id: 3,
       category: "UI Design",
       img: "/assets/img/projects/project-2.png",
-    },
+    }
   ];
   return (
     <div className="card card-projects">

@@ -938,7 +938,7 @@ p {
   transform: translate(-50%, -50%);
   width: 100px;
   height: 100px;
-  animation: spin 10s linear infinite;
+  animation: spin 42s linear infinite;
 }
 
 @keyframes spin {
@@ -1354,7 +1354,7 @@ p {
 .content-box-card .work-together-slider .slider-main .slider-item {
   display: flex;
   white-space: nowrap;
-  animation: scroll 10s linear infinite;
+  animation: scroll 42s linear infinite;
   gap: 24px;
   align-items: center;
 }
